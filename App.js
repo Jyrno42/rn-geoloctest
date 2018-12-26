@@ -7,13 +7,13 @@
  */
 
 import React, {Component} from 'react';
-import {GeoLocation, Platform, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
+import {Platform, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 
 type Props = {};
 
 export default class App extends Component<Props> {
   onGetPosition = () => {
-    GeoLocation.getCurrentPosition(this.onGeoSuccess, this.onGeoError, {
+    navigator.geolocation.getCurrentPosition(this.onGeoSuccess, this.onGeoError, {
       enableHighAccuracy: true,
     });
   };

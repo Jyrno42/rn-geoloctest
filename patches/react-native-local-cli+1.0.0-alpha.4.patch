@@ -1,0 +1,12 @@
+patch-package
+--- a/node_modules/react-native-local-cli/util/Config.js
++++ b/node_modules/react-native-local-cli/util/Config.js
+@@ -29,7 +29,7 @@ function getProjectRoot() {
+   }
+   // Packager is running from node_modules.
+   // This is the default case for all projects created using 'react-native init'.
+-  return path.resolve(__dirname, '../../');
++  return path.resolve(__dirname, '../../..');
+ }
+ 
+ const resolveSymlinksForRoots = roots =>

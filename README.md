@@ -4,5 +4,6 @@ Uses RN from source with this [commit](https://github.com/Jyrno42/react-native/c
 
 1. Clone
 2. yarn or npm install
-3. yarn android
-4. Follow onscreen instructions
+3. `mkdir -p node_modules/scripts` :man_shrugging:
+4. yarn android
+5. Follow onscreen instructions

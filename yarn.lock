@@ -5483,6 +5483,11 @@ posix-character-classes@^0.1.0:
   resolved "https://registry.yarnpkg.com/posix-character-classes/-/posix-character-classes-0.1.1.tgz#01eac0fe3b5af71a2a6c02feabb8c1fef7e00eab"
   integrity sha1-AerA/jta9xoqbAL+q7jB/vfgDqs=
 
+postinstall-postinstall@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/postinstall-postinstall/-/postinstall-postinstall-2.0.0.tgz#7ba6711b4420575c4f561638836a81faad47f43f"
+  integrity sha512-3f6qWexsHiT4WKtZc5DRb0FPLilHtARi5KpY4fqban/DJNn8/YhZH8U7dVKVz51WbOxEnR31gV+qYQhvEdHtdQ==
+
 prelude-ls@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
@@ -5693,9 +5698,9 @@ react-native-local-cli@1.0.0-alpha.4:
     xcode "^1.0.0"
     xmldoc "^0.4.0"
 
-"react-native@git://github.com/jyrno42/react-native.git#9d43f90b79876b36331a27f6cd321277baacbcd4":
+"react-native@git://github.com/jyrno42/react-native.git#defd1f4f1307080d6e1bbbd61d672f2b3b768574":
   version "1000.0.0"
-  resolved "git://github.com/jyrno42/react-native.git#9d43f90b79876b36331a27f6cd321277baacbcd4"
+  resolved "git://github.com/jyrno42/react-native.git#defd1f4f1307080d6e1bbbd61d672f2b3b768574"
   dependencies:
     "@babel/runtime" "^7.0.0"
     absolute-path "^0.0.0"

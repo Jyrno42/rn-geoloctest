@@ -5,12 +5,14 @@
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "android": "react-native run-android",
-    "test": "jest"
+    "test": "jest",
+    "postinstall": "patch-package"
   },
   "dependencies": {
     "patch-package": "^5.1.1",
+    "postinstall-postinstall": "2.0.0",
     "react": "16.6.3",
-    "react-native": "git://github.com/jyrno42/react-native.git#9d43f90b79876b36331a27f6cd321277baacbcd4"
+    "react-native": "git://github.com/jyrno42/react-native.git#defd1f4f1307080d6e1bbbd61d672f2b3b768574"
   },
   "devDependencies": {
     "babel-jest": "23.6.0",

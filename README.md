@@ -4,6 +4,7 @@ Uses RN from source with this [commit](https://github.com/Jyrno42/react-native/c
 
 1. Clone
 2. yarn or npm install
+3. `mkdir -p node_modules/scripts` ¯\_(ツ)_/¯
 3. yarn android --variant 'Release'
    - Release variant is used due to [this issue](https://github.com/facebook/react-native/issues/22800)
 4. Start logcat to see the logs `adb logcat | grep "ReactNativeJS"`

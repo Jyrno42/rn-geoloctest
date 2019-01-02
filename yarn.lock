@@ -5698,9 +5698,9 @@ react-native-local-cli@1.0.0-alpha.4:
     xcode "^1.0.0"
     xmldoc "^0.4.0"
 
-"react-native@git://github.com/jyrno42/react-native.git#83799f146dfcc60e7d74420fd29b18142d3c2fa9":
+"react-native@git://github.com/jyrno42/react-native.git#d1f02cd50a877be0bc1f3e5fe5d23e6ce90fbbbc":
   version "1000.0.0"
-  resolved "git://github.com/jyrno42/react-native.git#83799f146dfcc60e7d74420fd29b18142d3c2fa9"
+  resolved "git://github.com/jyrno42/react-native.git#d1f02cd50a877be0bc1f3e5fe5d23e6ce90fbbbc"
   dependencies:
     "@babel/runtime" "^7.0.0"
     absolute-path "^0.0.0"

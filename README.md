@@ -4,9 +4,19 @@ Uses RN from source with this [commit](https://github.com/Jyrno42/react-native/c
 
 1. Clone
 2. yarn or npm install
-3. yarn start
-4. yarn android
+3. yarn android --variant 'Release'
+   - Release variant is used due to [this issue](https://github.com/facebook/react-native/issues/22800)
+4. Start logcat to see the logs `adb logcat | grep "ReactNativeJS"`
 5. Follow onscreen instructions
+6. ADB logs should contain this:
+
+```
+01-02 13:32:00.270 16625 16645 E ReactNativeJS: { TIMEOUT: 3,
+01-02 13:32:00.270 16625 16645 E ReactNativeJS:   POSITION_UNAVAILABLE: 2,
+01-02 13:32:00.270 16625 16645 E ReactNativeJS:   PERMISSION_DENIED: 1,
+01-02 13:32:00.270 16625 16645 E ReactNativeJS:   message: 'Location permission was not granted.',
+01-02 13:32:00.270 16625 16645 E ReactNativeJS:   code: 1 }
+```
 
 ## Misc
 
@@ -20,3 +30,5 @@ app files inside `<APP_ROOT>/node_modules` not in `<APP_ROOT>`. This might not b
 react-native-local-cli since the file has been removed and I failed to find the new place for it.
 
 https://github.com/react-native-community/react-native-cli
+
+This has been reported [here](https://github.com/react-native-community/react-native-cli/issues/60).

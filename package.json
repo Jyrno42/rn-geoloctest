@@ -12,7 +12,7 @@
     "patch-package": "^5.1.1",
     "postinstall-postinstall": "2.0.0",
     "react": "16.6.3",
-    "react-native": "git://github.com/jyrno42/react-native.git#bf64df4aea3f8ecda3fd9cfc2ed25e9f61ac905b"
+    "react-native": "git://github.com/jyrno42/react-native.git#5bdd6a0349666ecd5103ed23129989292202e49f"
   },
   "devDependencies": {
     "babel-jest": "23.6.0",

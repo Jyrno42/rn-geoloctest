@@ -1,6 +1,6 @@
 # A Manual testcase for https://github.com/facebook/react-native/issues/22535
 
-Uses RN from source with this [commit](https://github.com/Jyrno42/react-native/commit/bf64df4aea3f8ecda3fd9cfc2ed25e9f61ac905b).
+Uses RN from source with this [commit](https://github.com/Jyrno42/react-native/commit/5bdd6a0349666ecd5103ed23129989292202e49f).
 
 1. Clone
 2. yarn or npm install
